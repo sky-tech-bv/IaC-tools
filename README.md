@@ -1,2 +1,2 @@
 # Projects-DevOps
-My own projects
+The folder has my own projects which I did on my way
