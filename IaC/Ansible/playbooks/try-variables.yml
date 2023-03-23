@@ -1,0 +1,10 @@
+---
+- name: Variables
+  hosts: 'dev'
+  vars_files:
+    - variables.yaml
+  vars:
+    variable1: "PlayBookValue"
+  tasks:
+    - debug:
+        msg: "Value is {{ variable1 }}"
