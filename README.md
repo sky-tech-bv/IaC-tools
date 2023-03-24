@@ -1,2 +1,2 @@
-# Projects-DevOps
-The folder has my own projects which I did on my way
+# IaC_practice
+In the folder located materials used in the IaC practice process
