@@ -1,0 +1,17 @@
+---
+- name: Install apache
+  hosts: 'dev'
+  become: true
+  tasks:
+    - name: Install-apache
+      yum:
+        name:
+          - httpd
+        state: present
+    - name: Run-it-as-a-service
+      service:
+        name: httpd
+        state: started
+        enabled: "yes"
+    - name: Execute the raw-command
+      raw: "echo Welcome to DevOps learning space | sudo tee /var/www/html/index.html"
