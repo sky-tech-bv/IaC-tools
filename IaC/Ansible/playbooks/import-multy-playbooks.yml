@@ -1,4 +1,0 @@
-- name: Import pleybook to install apachi webserver
-  import_playbook: apache-webserver-install.yml
-- name: Import playbook create EC2 instance
-  import_playbook: create-ec2-instance.yml
